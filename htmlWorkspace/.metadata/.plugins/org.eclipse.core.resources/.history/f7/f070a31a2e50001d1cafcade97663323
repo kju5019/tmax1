@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>통합 검색</h1>
+	<form action="https://google.com/search"></form>
+	<input name="hl">	<br>
+	<input name="q">	<br>
+	<input name="aq">	<br>
+	<input name="oq">	<br>
+	<input type="submit">
+
+</body>
+</html>

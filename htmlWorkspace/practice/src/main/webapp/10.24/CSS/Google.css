@@ -1,0 +1,133 @@
+body{
+    position: relative;
+}
+
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.clear{
+    clear: both;
+}
+
+.header{
+    padding: 10px;
+}
+.header a {
+    text-decoration: none;
+}
+
+.left-header{
+   float: left;
+}
+.left-header div{
+    margin-right: 5px;
+    float: left;
+}
+
+.right-header{
+    float: right;
+}
+.right-header div{
+    margin-left: 5px;
+    float: left;
+}
+.right-header .pink{
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+    background-color: pink;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    
+}
+
+.middle{
+    margin-top: 130px;
+    position: relative;
+}
+
+.middle .middleCenterBox{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.middle .middleCenterBox .imgbox{
+    width: 50%;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    padding: 30px;
+   
+
+}
+.middle .middleCenterBox .search  {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.middle .middleCenterBox .search input {
+    display: inline-block;
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    margin: 0 auto;
+    position: absolute;
+    left: 40%;
+    transform: translateX(-50%);
+    box-shadow: 2px 4px 5px gray;
+}
+
+.middle .middleCenterBox .smallbox{
+    margin-top: 50px;
+  
+}
+
+.middle .middleCenterBox .smallbox .luckybox{
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+   
+}
+.middle .middleCenterBox .smallbox .luckybox div{
+    float: left;
+    margin-left: 25px;
+   
+    border-radius: 5px;
+}
+
+footer {
+    margin-top: 200px;
+}
+
+footer .box1 {
+    margin-bottom: 20px;
+}
+footer .box1 div{
+    margin-left: 20px;
+}
+footer .box2{
+   
+}
+
+footer .box2 .leftBox{
+    float: left;
+}
+footer .box2 .leftBox div {
+    float: left;
+    margin-left: 20px;
+}
+
+footer .box2 .rightbox{
+    float: right;
+}
+footer .box2 .rightbox div {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
