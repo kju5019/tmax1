@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ch10/src/main/webapp/attr-5.html&apos; to &apos;attr-5_^=.html&apos;" description="Rename resource &apos;attr-5.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/attr-5.html" name="attr-5_^=.html" stamp="1666662177318" updateReferences="true"/>
+</session>

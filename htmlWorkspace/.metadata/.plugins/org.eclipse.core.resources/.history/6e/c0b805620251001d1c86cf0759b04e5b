@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <title>text-align</title>
+    <style>
+      p {
+        width:1600px;
+        border:1px solid #222;
+        padding:10px;
+        margin:10px; /* box요소의 마진 위아래 겹치면 큰 마진 하나만을 선택 ----위10+아래10 만났지만 20이 아니라 10 */
+      }
+      .center {
+        text-align: center;
+      }
+      .justify {
+        text-align: justify;
+      }
+      .end {
+        text-align: end;
+      }
+    </style>
+  </head>
+  <body>    
+    <p>껍질에 붉은 빛이 돌아 <b><big>레드향</big>(감평甘平)</b>이라 불린다. 레드향은 한라봉과 귤을 교배한 것으로 일반 귤보다 2~3배 크고, 과육이 붉고 통통하다.</p>
+    <p class="center">껍질에 붉은 빛이 돌아 <b><big>레드향</big>(감평甘平)</b>이라 불린다. 레드향은 한라봉과 귤을 교배한 것으로 일반 귤보다 2~3배 크고, 과육이 붉고 통통하다.</p>
+    <p class="justify">껍질에 붉은 빛이 돌아 <b><big>레드향</big>(감평甘平)</b>이라 불린다. 레드향은 한라봉과 귤을 교배한 것으로 일반 귤보다 2~3배 크고, 과육이 붉고 통통하다.</p>
+    <p class="end">껍질에 붉은 빛이 돌아 <b><big>레드향</big>(감평甘平)</b>이라 불린다. 레드향은 한라봉과 귤을 교배한 것으로 일반 귤보다 2~3배 크고, 과육이 붉고 통통하다.</p>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>선형 그러데이션</title>
+  <style>
+	div {
+		width:500px;
+		height:300px;
+		border-radius:10px;
+	}
+  	.grad {
+  		background: skyblue;
+      background: linear-gradient(to right bottom, skyblue, white);  /* 방향, 시작색, 끝색 */
+  	}
+  	.grad2 {
+  		background: red;
+      background: linear-gradient(45deg, red, white);  /* 각도, 시작색, 끝색 */
+  	}
+  	.grad3 {
+  		background: red;
+      background: linear-gradient(to right, black 10%, red 40%, black 70%, red);  /* 각도, 시작색, 끝색 */
+  	}
+  	
+  	/* 타원형 원형 그러데이션 */
+		.grad4{
+			background:red;
+			background:radial-gradient(white, yellow, red); /* 타원형으로 흰색, 노란색, 빨간색으로 바뀌는 그러데이션 */
+		}
+
+		/* 원형 그러데이션 */
+		.grad5{
+			background:red;
+			background:radial-gradient(circle, white, yellow, red);  /* 원형으로 흰색, 노란색, 빨간색으로 바뀌는 그러데이션 */
+		}
+  </style>
+</head>
+<body>
+  <div class="grad"></div>
+  <div class="grad2"></div>
+  <div class="grad3"></div>
+  <div class="grad4"></div>
+  <div class="grad5"></div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action = "https://google.com/search"></form>
+		<input name="hl"><br>
+		<input name="q"><br>
+		<input name="aq"><br>
+		<input name="oq"><br>
+	<input type="submit">
+
+</body>
+</html>

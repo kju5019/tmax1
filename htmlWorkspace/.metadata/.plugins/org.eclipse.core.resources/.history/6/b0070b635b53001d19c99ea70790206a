@@ -1,0 +1,26 @@
+<!DOCTYPE html><html><head>
+<meta charset="UTF-8">
+<title>CSS 위치 속성</title>
+<style>
+*{margin: 0; padding: 0;}
+p{width: 300px; border: 1px solid #ccc; padding: 10px;}
+/* 부모요소(position:relative)를 기준으로 절대위치 absolute
+   부모나 조상요소중에 position이 relative인게 없으면 body기준
+  */
+#pos1{position: absolute; left: 50px; top: 50px;}
+#pos2{position: absolute; right: 100px; top: 100px;}
+#pos3{position: absolute; left: 100px; bottom: 100px;}
+#container{width: 1200px; height: 900px; border: 1px solid #000;
+           position: relative;}
+</style>
+</head>
+<body>
+<div id="container">
+<p id="pos1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt pretium quam nec dapibus. Fusce posuere rutrum mi at tempus. Donec semper, purus et vehicula pulvinar, tortor lorem efficitur metus, eu sodales metus sem vel odio. Phasellus venenatis aliquam porta. Fusce dignissim, eros eu iaculis aliquam, tellus magna volutpat libero, et sodales velit massa suscipit urna. Vivamus et pellentesque sem, vel luctus orci. Integer congue diam at consectetur venenatis. Sed sed lectus at sapien pharetra placerat in sollicitudin ligula. Aenean feugiat maximus lectus vitae dapibus. Pellentesque non vestibulum diam. Quisque ultricies interdum ultrices. Praesent vestibulum interdum justo id rutrum. Nam mauris augue, sodales dictum fringilla non, congue ornare augue. Phasellus aliquam mollis nulla, ut consequat augue tincidunt quis.</p>
+
+<p id="pos2">Cras sodales elit nisl, id facilisis ante imperdiet vel. Cras imperdiet tincidunt finibus. Cras malesuada lorem augue, et porttitor urna mollis nec. Phasellus ut elit sed arcu bibendum sodales. Suspendisse malesuada blandit sapien, et porta ex sodales non. Quisque vulputate rutrum diam, non blandit nulla iaculis sed. Nullam vehicula neque eros, id euismod risus feugiat id. Integer convallis ultricies lacus sed euismod. Donec eleifend est ut ipsum hendrerit mollis. Aenean et mi leo. Aenean convallis mauris ut lectus viverra, vitae pulvinar arcu viverra. Quisque ac risus blandit, tincidunt dui non, volutpat ex. Praesent aliquam, dui in ullamcorper consectetur, metus libero pulvinar lacus, a vehicula mauris massa in ipsum. Morbi ac nunc accumsan, sagittis sem sed, elementum ipsum.</p>
+
+<p id="pos3">Donec sit amet est vel erat ornare bibendum non quis purus. Suspendisse dolor magna, condimentum vel facilisis quis, sodales eget erat. Morbi nec neque varius, mattis diam et, placerat metus. Nulla tempor luctus pulvinar. Donec lectus ipsum, ornare vitae orci ut, porttitor porttitor ipsum. Fusce a sem imperdiet, lobortis metus a, commodo lorem. Cras pulvinar porttitor eros, a pulvinar purus mollis vitae. In tempus ornare nisl non dictum. Pellentesque pellentesque, sapien at sodales pretium, sapien velit interdum nunc, eu consequat mauris sem sed leo.</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>구글 폰트 사용하기</title>
+    <style>
+	@import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Gaegu&family=Gloria+Hallelujah&display=swap');
+	h1{
+	font-size: 60px;
+	font-weight: bold;
+	font-family: 'Gaegu',cursive;
+	}
+	h2{
+	font-size: 60px;
+	font-weight: bold;
+	font-family: 'Gloria Hallelujah',cursive;
+	}
+    </style>
+</head>
+<body>
+  <h1>HTML+CSS+Javascript</h1>
+  <h2>HTML+CSS+Javascript</h2>
+</body>
+</html>

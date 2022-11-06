@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>상품 소개 페이지</title>
+<!-- <style>
+*{
+	margin: 0;	/* 0px */
+	padding: 0; /* top right bottom left */
+}
+</style> -->								<!-- 둘 중에 아무 방법이나 -->
+</head>
+<body style="margin:0px; padding: 0px">
+<img alt="" src="images/cat.jpg">
+
+</body>
+</html>

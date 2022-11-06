@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS position 속성</title>
+  <style>
+  *{box-sizing: border-box; margin:0; padding:0}
+  #contents{}
+  h1{
+	color:white;
+	font-size: 70px;
+	position:relative;
+	left:400px;  
+    top:-150px; 
+  }
+  </style>
+</head>
+<body>
+    <div id="contents">
+   <img src="images/bg.jpg">
+      <h1>CSS3</h1>      
+    </div>
+</body>
+</html>
+ 

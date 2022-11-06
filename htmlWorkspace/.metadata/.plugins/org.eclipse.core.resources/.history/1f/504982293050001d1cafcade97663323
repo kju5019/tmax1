@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>form 검색창</title>
+</head>
+<body>
+	<h1>통합 검색</h1>
+	<form action="https://google.com/search" method="get">
+	<input name="hl">	<br>
+	<input name="q">	<br>
+	<input name="aq">	<br>
+	<input name="oq">	<br>
+	<input type="submit">
+</form>
+<hr>
+<form action="https://google.com/search">
+	검색할 단어:<input type = "search" name="q"><input type="submit" value="검색"	>
+	
+	
+</form>
+
+
+</body>
+</html>
