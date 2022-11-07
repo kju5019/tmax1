@@ -5,15 +5,15 @@ public class Chatting {
 		 void start() {}
 		 void sendMessage(String message) {}
 	 }
-	 //·ÎÄÃº¯¼ö·Î¼­ÀÇ ³»ºÎÅ¬·¡½º Chat
+	 //ï¿½ï¿½ï¿½Ãºï¿½ï¿½ï¿½ï¿½Î¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Å¬ï¿½ï¿½ï¿½ï¿½ Chat
 	 void startChat(String chatId) {
 	   String nickName = chatId;
 	  //nickName = chatId;
-	  //·ÎÄÃ Å¬·¡½º
+	  //ï¿½ï¿½ï¿½ï¿½ Å¬ï¿½ï¿½ï¿½ï¿½
 	  Chat chat = new Chat() {
 		  void start() {
 			  while(true) {
-				  String InputData = "¾È³çÇÏ¼¼¿ä";
+				  String InputData = "ï¿½È³ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½";
 				  String message = "["+nickName+"]"+InputData;
 				  sendMessage(message);
 			  }
@@ -24,3 +24,27 @@ public class Chatting {
 	 }
 	}
 
+
+	class Chat{
+		void start() {}
+		void sendMessage(String message) {}
+	}
+	
+	void startChat(String chatId) {
+		String nickName = null;
+		nickName = chatId;
+		
+		Chat chat = new Chat() {
+			@Override
+			public void start() {
+				while(true) {
+					String inputData = "ì•ˆë…•í•˜ì„¸ìš”";
+					String message = "["+nickName+"] "+inputData;
+					sendMessage(message);
+				}
+			}
+		};
+		chat.start();
+	}
+
+}

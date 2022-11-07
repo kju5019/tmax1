@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<script>
+	var season=["봄","여름","가을","겨울"];
+	for(i=0; i<season.length; i++)
+		console.log(season[i]);
+</script>
+
+</body>
+</html>

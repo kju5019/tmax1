@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>alert문</title>
+</head>
+<body>
+
+	<script>
+		alert("안녕하세요?");
+	</script>
+	
+	<script>	/* 입력값이 확인 = true, 취소 = false */
+		var reply = confirm("정말 배경 이미지를 바꾸시겠습니까?");
+		//alert(reply);
+		if(reply){
+			alert("이미지 변경");
+		}else{
+			alert("취소");
+		}
+	</script>
+	
+	<script>
+	var name=prompt("이름을 입력하세요.","아무개");
+	alert("당신의 이름은 "+name+"입니다.");
+	</script>
+	
+</body>
+</html>

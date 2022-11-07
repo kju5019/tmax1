@@ -1,0 +1,9 @@
+h1{      
+	width:14%;    /*  너비 */
+	padding:10px ;
+	background-color: blue;
+	color:#fff;
+      }
+.accent{
+	color:red;
+}

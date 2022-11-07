@@ -1,0 +1,31 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>주문 내역</title>
+</head>
+<body>
+<%
+	String id = request.getParameter("id");
+	String pwd = request.getParameter("pwd");
+	String url = request.getParameter("url");
+	String email = request.getParameter("email");
+	String tel = request.getParameter("tel");
+	String gubun = request.getParameter("gubun");
+	String pack = request.getParameter("pack");
+%>
+<%
+	out.println("id: "+id);
+	out.println("pwd: "+pwd);
+	out.println("url: "+url);
+	out.println("email: "+email);
+	out.println("tel: "+tel);
+	out.println("선물 종류: "+gubun);
+	out.println("선물 포장 여부: "+pack);
+
+%>
+
+</body>
+</html>

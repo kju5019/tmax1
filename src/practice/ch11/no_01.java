@@ -7,9 +7,12 @@ public class no_01 {
 	public static void main(String[] args) {
 		ArrayList list1 = new ArrayList();
 		ArrayList list2 = new ArrayList();
-		ArrayList kyo = new ArrayList(); // ±³ÁýÇÕ
-		ArrayList cha = new ArrayList(); // Â÷ÁýÇÕ
-		ArrayList hap = new ArrayList(); // ÇÕÁýÇÕ
+		ArrayList kyo = new ArrayList(); // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+		ArrayList cha = new ArrayList(); // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+		ArrayList hap = new ArrayList(); // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+		ArrayList kyo = new ArrayList(); 
+		ArrayList cha = new ArrayList(); 
+		ArrayList hap = new ArrayList(); 
 		list1.add(1);
 		list1.add(2);
 		list1.add(3);

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+ h1 {      
+	  box-sizing: border-box;
+      padding:10px ;
+      background-color:#222;
+      color:#fff;
+    }
+ ul{
+ 	list-style:none;
+ }
+  li {
+      color:blue;
+    }
+</style>
+</head>
+<body>
+
+<h1>웹 기술 - 기본</h1>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>Javascript 기초</li>
+</ul>
+
+</body>
+</html>
