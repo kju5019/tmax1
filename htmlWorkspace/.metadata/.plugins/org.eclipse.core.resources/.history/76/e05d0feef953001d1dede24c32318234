@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	*{width: 100%;}
+	a { text-decoration: none;
+		color: gray; font-size: 15px;}
+	#head1{ height: 50px;
+			top: 0px;	
+			}
+
+	#head2{	float: right; height: 50px; }
+	.head2_right{ height:30px;
+					display: inline-block;
+					position: relative;
+					padding-right: 5px;
+					}
+	
+	#logo{ display: block;
+			width: 400px;
+			margin: 0 auto;}
+	#search{ width: 700px;
+			height: 40px;
+			display: block;
+			margin: 0 auto;
+			border: 1px solid gray;
+			border-radius: 40px;
+			}
+	#submit{
+			width:250px;
+			height:80px;
+			margin: 0 auto;
+	}
+	.submit1{			
+			border: 0px solid gray;
+			height: 50px;
+			display: inline-block;
+	}
+	footer{ position: absolute;
+			bottom: 0px;
+			height: 140px;
+			background-color: #e1e1e1;
+	}
+	#footer1{
+			height: 70px;
+			top: 0px;
+	}
+	#footer2{
+			font-size: 25px;
+			height: 70px;
+			bottom: 0px;
+	}
+	#nation{ font-size: 25px;
+			padding-left: 30px;
+			}
+	.bottom_left{			
+			display: inline-block;
+			float: left;			
+	}
+	.bottom_right{			
+			display: inline-block;
+			float: right;			
+	}
+
+</style>
+
+</head>
+<body>
+<div id="header">
+	<div id="head1">
+		
+		<div class="head_left1"><a href="#"><p>Google 정보</p></a></div>
+	 	<div class="head_left2"><a href="#"><p>스토어</p></a></div>
+	 
+	</div>
+	<div id="head2">
+		
+		<div class="head2_right"><a href="#"><p>Gmail</p></a></div>
+		<div class="head2_right"><a href="#"><p>이미지</p></a></div>
+		<div class="head2_right"><a href="#"><p>구글 앱</p></a></div>
+		<div class="head2_right"><a href="#"><p>로그인</p></a></div><br>
+		
+	</div>
+	</div>
+	
+	<div>
+		<img id="logo" src="google.png"><br>
+		<input id="search" type="text"><br>		
+		<div id="submit">
+		<input class="submit1" type="submit" value="Google 검색">
+		<input class="submit1" type="submit" value="I'm Feeling Lucky">
+		</div>
+	</div>
+	
+	<footer>
+		<div id="footer1">
+		<p id="nation">대한민국</p>
+		
+		</div>
+		<div id="footer2">
+		 <div class="bottom_left"><a href="#"><p>광고</p></a></div>
+		 <div class="bottom_left"><a href="#"><p>비즈니스</p></a></div>
+		 <div class="bottom_left"><a href="#"><p>검색의 원리</p></a></div>
+		 
+		 <div class="bottom_right"><a href="#"><p>개인정보처리방침</p></a></div>
+		 <div class="bottom_right"><a href="#"><p>약관</p></a></div>
+		 <div class="bottom_right"><a href="#"><p>설정</p></a></div>
+		
+		</div>
+		
+	</footer>
+
+</body>
+</html>

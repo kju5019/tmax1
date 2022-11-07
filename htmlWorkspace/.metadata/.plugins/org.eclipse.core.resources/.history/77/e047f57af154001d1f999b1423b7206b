@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<script>
+	var today = new Date();
+	var h = today.getHours();
+	alert("현재시각:" + h+"시");
+	alert(today.toLocaleTimeString());	
+</script>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<style type="text/css">
+.container{
+	width: 700px; 
+	display: flex;
+	background:#eee; 
+	border: 1px solid #222; 
+	margin-bottom:30px;
+}
+.box {
+      padding:5px 45px;
+      margin:5px;   
+	  width:80px;
+      background-color:#222;   
+    }
+#opt1{flex-direction: row}					/* 가로 */
+#opt2{flex-direction: row-reverse;}			/* 가로 역방향 */
+#opt3{flex-direction: column;}				/* 세로 */
+#opt4{flex-direction: column-reverse;}		/* 세로 역방향 */
+    
+</style> 
+
+</head>
+<body>
+  <div class="container" id="opt">
+  
+  <div class="container" id="opt1">
+    <div class="box"><p>1</p></div>
+    <div class="box"><p>2</p></div>
+    <div class="box"><p>3</p></div>
+  </div>
+  <div class="container" id="opt2">
+    <div class="box"><p>1</p></div>
+    <div class="box"><p>2</p></div>
+    <div class="box"><p>3</p></div>
+  </div>
+  <div class="container" id="opt3">
+    <div class="box"><p>1</p></div>
+    <div class="box"><p>2</p></div>
+    <div class="box"><p>3</p></div>
+  </div>
+  <div class="container" id="opt4">
+    <div class="box"><p>1</p></div>
+    <div class="box"><p>2</p></div>
+    <div class="box"><p>3</p></div>
+  </div>       
+
+</div>
+
+</body>
+</html>

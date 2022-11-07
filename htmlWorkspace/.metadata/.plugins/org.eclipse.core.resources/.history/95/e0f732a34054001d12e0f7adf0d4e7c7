@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+#container{
+	width: 100%;
+	height: 1000px;
+	display: flex;
+	flex-direction: column;
+
+}
+header {
+	display: flex;
+}
+header ul{
+    width: 100%;
+	height: 50px;
+	display: flex;
+	list-style: none;
+}
+
+
+
+</style>
+
+</head>
+<body>
+	<div id = "container">
+		<header>
+			<div id="head1" >
+				<ul>
+					<li id="head_left1"><a href="#"><p>Google 정보</p></a></li>
+					<li id="head_left2"><a href="#"><p>스토어</p></a></li>
+				</ul>
+			</div>
+			<div id="head2">
+
+				<ul>
+					<li><a href="#"><p>Gmail</p></a></li>
+				
+				<li class="head_right2">
+					<a href="#"><p>이미지</p></a>
+				</li>
+				<li class="head_right3">
+					<a href="#"><p>구글 앱</p></a>
+				</li>
+				<li class="head_right4">
+					<a href="#"><p>로그인</p></a>
+				</li>
+
+			</div>
+		</header>
+		
+		<main>
+			<div>
+			
+			</div>
+			
+			<div>
+			
+			</div>
+		</main>
+		
+		<footer>
+		
+		</footer>
+	</div>
+
+</body>
+</html>

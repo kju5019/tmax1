@@ -1,0 +1,16 @@
+
+10월 20, 2022 08:54:13.573 NEW SESSION
+10월 20, 2022 08:54:13.573 [3580:9168:1020/085413.572:ERROR:util.cc(129)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+10월 20, 2022 08:57:35.772 [3580:4832:1020/085735.772:ERROR:interface_endpoint_client.cc(689)] Message 1 rejected by interface blink.mojom.WidgetHost
+10월 20, 2022 10:45:43.322 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+10월 20, 2022 11:20:37.657 [3580:4832:1020/112037.657:ERROR:interface_endpoint_client.cc(689)] Message 1 rejected by interface blink.mojom.WidgetHost
+10월 20, 2022 11:20:37.662 [3580:4832:1020/112037.657:ERROR:interface_endpoint_client.cc(689)] Message 1 rejected by interface blink.mojom.WidgetHost
+10월 20, 2022 13:54:13.562 [3580:2848:1020/135413.562:ERROR:util.cc(129)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+
+10월 26, 2022 11:36:02.472 NEW SESSION
+10월 26, 2022 11:36:02.472 [6196:8064:1026/113602.468:ERROR:util.cc(129)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+10월 26, 2022 12:41:11.313 [6196:428:1026/124111.313:ERROR:interface_endpoint_client.cc(690)] Message 1 rejected by interface blink.mojom.WidgetHost
+10월 26, 2022 12:41:22.652 [6196:428:1026/124122.652:ERROR:device_event_log_impl.cc(215)] [12:41:22.652] FIDO: webauthn_api.cc:48 Windows WebAuthn API failed to load
+10월 26, 2022 13:17:00.945 [7864:1812:1026/131700.945:ERROR:util.cc(129)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+10월 26, 2022 13:20:05.488 [6016:2032:1026/132005.488:ERROR:util.cc(129)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+10월 26, 2022 13:52:38.376 [1244:6740:1026/135238.376:ERROR:util.cc(129)] Can't create base directory: C:\Program Files\Google\GoogleUpdater

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>전송과 리셋버튼 추가하기</title>
+</head>
+<body>
+<div>
+ <form>
+ 	<input name="id"><br>
+ 	<input type="password" name="pwd"><br>
+	<input type="image" src="images/login.png">
+	<input type="reset" value="취소하기">
+ </form>
+</div>
+
+</body>
+</html>

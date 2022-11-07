@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>선형 그러데이션</title>
+  <style>
+	div {
+		width:500px;
+		height:300px;
+		border-radius:10px;
+	}
+  	.grad {
+  		background: skyblue;
+      background: linear-gradient(to bottom, skyblue, white);  /* 방향, 시작색, 끝색 */
+  	}
+  </style>
+</head>
+<body>
+  <div class="grad"></div>
+</body>
+</html>

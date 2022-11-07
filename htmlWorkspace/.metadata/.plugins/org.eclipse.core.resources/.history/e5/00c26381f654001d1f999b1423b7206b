@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<script>
+	var numberOne = 15;
+	var numberTwo = 2;
+	alert(numberOne/numberTwo);
+	alert(numberOne%numberTwo);
+	
+</script>
+
+</body>
+</html>
